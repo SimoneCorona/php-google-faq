@@ -69,7 +69,7 @@ $frequent_question= [
                 <li>Norme sulla privacy</li>
                 <li>Termini di servizio</li>
                 <li>Tecnologie</li>
-                <li>Domande frequenti</li>
+                <li class="active">Domande frequenti</li>
             </ul>
         </div>
     </header>
