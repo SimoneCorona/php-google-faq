@@ -12,6 +12,9 @@ a {
     text-decoration: none;
     color: #2962ff;
 }
+ul li{
+    list-style: none;
+}
 /* HEADER */
 header{
     padding: 8px;
@@ -25,6 +28,7 @@ header{
     display: inline-block;
     height: 24px;
     width: 74px;
+    cursor: pointer;
 }
 .up-header p {
     display: inline-block;
@@ -32,10 +36,12 @@ header{
     color: #5f6368;
     opacity: 1;
     padding-left: 4px;
+    cursor: pointer;
 }
 .up-header i{
     color: #5f6368;
     opacity: 1;
+    cursor: pointer;
 }
 .up-header button {
     color: white;
@@ -53,13 +59,16 @@ header{
     text-align: center;
     vertical-align: middle;
     border-radius: 4px;
+    cursor: pointer;
 }
 
 .down-header ul li{
     color: #5f6368;
     display: inline-block;
     margin-right: 1rem;
+    cursor: pointer;
 }
+
 /* MAIN */
 main{
     max-width: 978px;
@@ -79,4 +88,26 @@ main p{
     line-height: 24px;
     padding-top: 20px;
     margin: 10px 0;
+}
+
+/* FOOTER */
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f5f5f5;
+    border-top: 1px solid #eee;
+    font-size: 11px;
+    line-height: 2.19;
+    list-style: none;
+    padding: 10px 15px 10px 15px;
+    height: 68px;
+}
+footer div{
+    margin: 0 auto;
+    padding: 0 14px;
+} 
+footer li{
+    display: inline-block;
+    margin-right: 1rem;
 }
